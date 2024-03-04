@@ -1,0 +1,30 @@
+.label {
+  font-size: 13px;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: end;
+  border: 2px solid #5a5aa3;
+  border-radius: 10px;
+  margin: 0.2rem;
+  padding: 10px;
+}
+
+.catItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input {
+  max-width: 200px;
+}
